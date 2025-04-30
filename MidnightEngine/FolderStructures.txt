@@ -1,0 +1,22 @@
+MidnightEngine/
+├── Core/               # Core engine functionality
+│   ├── Math/           # Vector, matrix, quaternion classes
+│   ├── Memory/         # Memory management
+│   └── System/         # Platform abstraction, file I/O
+├── Engine/             # Main engine systems
+│   ├── Audio/          # Audio system
+│   ├── Graphics/       # Rendering pipeline
+│   ├── Physics/        # Physics simulation
+│   ├── Input/          # Input handling
+│   └── Scene/          # Scene graph management
+├── Editor/             # Editor-specific code
+│   ├── Tools/          # Editor tools
+│   ├── UI/             # Editor UI components
+│	├── Linux/			# Editor Linux-specific code
+│   ├── MacOS/			# Editor MacOS-specific code
+│   └── Windows/        # Editor windows
+│
+├── Runtime/            # Runtime-specific code
+├── ThirdParty/         # Third-party libraries
+├── Utils/              # Utility classes and helpers
+└── Resources/          # Engine resources
